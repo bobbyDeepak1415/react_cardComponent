@@ -5,18 +5,20 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
+  
+  
+  
 
   const handleClick = () => {
+    timer = setInterval(() => {
+      setCount((prev) => prev + 1);
+      setCount((prev) => prev + 1);
+      setCount((prev) => prev + 1);
+      setCount((prev) => prev + 1);
+      setCount((prev) => prev + 1);
+    }, 1000);
 
-    setTimeout(()=>{
-
-      setCount((prev) => prev + 1);
-      setCount((prev) => prev + 1);
-      setCount((prev) => prev + 1);
-      setCount((prev) => prev + 1);
-      setCount((prev) => prev + 1);
-    },1000)
-    };
+  };
 
   return (
     <>
