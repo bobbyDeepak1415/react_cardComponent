@@ -7,10 +7,16 @@ function App() {
   const [count, setCount] = useState(0);
 
   const handleClick = () => {
-    setCount((count) => count + 1);
-    setCount((count) => count + 1);
-    setCount((count) => count + 1);
-  };
+
+    setTimeout(()=>{
+
+      setCount((prev) => prev + 1);
+      setCount((prev) => prev + 1);
+      setCount((prev) => prev + 1);
+      setCount((prev) => prev + 1);
+      setCount((prev) => prev + 1);
+    },1000)
+    };
 
   return (
     <>
