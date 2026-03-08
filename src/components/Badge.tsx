@@ -1,6 +1,6 @@
 import type { BadgeInterface } from "../types";
 
-import styles from "./components/Badge.module.css";
+import styles from "./Badge.module.css";
 
 const Badge = ({ text, filled }: BadgeInterface) => {
 

@@ -1,9 +1,7 @@
-
-
-.badge{
-    background-color: bisque;
+.badge {
+  background-color: blue;
 }
 
-.filled{
-    background-color:red;
+.filled {
+  color: red;
 }
