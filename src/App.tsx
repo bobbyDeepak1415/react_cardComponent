@@ -5,7 +5,7 @@ import Badge from "./components/Badge";
 function App() {
   return (
     <div>
-      <Badge  text="New Post" />
+      <Badge filled={true} text="New Post" />
     </div>
   );
 }
