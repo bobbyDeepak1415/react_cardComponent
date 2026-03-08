@@ -22,9 +22,8 @@
   --text: 246 76% 4.9%;
   --accent: 245 75% 54.5%;
   --accent2: 40 98.2% 43.7%;
-  
-  /* utils */
 
+  /* utils */
 
   --space--sm: clamp(0.4rem, 1.5vw, 0.8rem);
   --space--md: clamp(1rem, 2.5vw, 1.4rem);
@@ -34,10 +33,21 @@
   --round-md: 10px;
   --round-lg: 15px;
   --round-full: 10vmax;
-  
 }
 
-
-.container {
-  max-width: var(--content)
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: var(--space--lg);
+  font-size: var(--fs-400);
+  line-height: var(--lh-1-4);
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background-color: hsl(var(--bkg));
+  color: hsl(var(--text));
 }
