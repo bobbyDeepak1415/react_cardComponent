@@ -1,10 +1,7 @@
+const Badge = ({text,filled}) => {
+  return <small>
+    
+  </small>
+};
 
-const Badge = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default Badge
+export default Badge;
