@@ -1,7 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-*,*::before,*::after{
-        
-     margin:0;
-    padding:0;
-    box-sizing: border-box;
+
+:root{
+  --fs-200:14px;
+  --fs-300:20px;
+  --fs-400:22px;
+  --fs-500:32px;
+  --lh-1:1;
+  --lh-1-1:1.1;
+  --lh-1-4:1.4;
+  
 }
