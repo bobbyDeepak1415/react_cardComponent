@@ -50,4 +50,5 @@ body {
   -webkit-text-size-adjust: 100%;
   background-color: hsl(var(--bkg));
   color: hsl(var(--text));
+  font-family: Inter, Avenir, Arial, Helvetica, sans-serif;
 }
