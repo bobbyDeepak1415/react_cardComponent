@@ -34,6 +34,10 @@
   --round-md: 10px;
   --round-lg: 15px;
   --round-full: 10vmax;
-  background: hsl(var(--bkg));
-  background: hsl(var(248 80% 98%));
+  
+}
+
+
+.container {
+  max-width: var(--content)
 }
