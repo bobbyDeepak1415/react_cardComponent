@@ -48,7 +48,41 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  background-color: hsl(var(--muted)/.2);
+  background-color: hsl(var(--bkg));
   color: hsl(var(--text));
   font-family: Inter, Avenir, Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: var(--lh-1-1);
+  font-size: var(--fs-200);
+}
+
+small {
+  font-size: var(--fs-200);
+  line-height: var(--lh-1);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.stack-lg {
+  display: grid;
+  gap: var(--space--lg);
+}
+
+.stack-md {
+  display: grid;
+  gap: var(--space--md);
+}
+.stack-sm {
+  display: grid;
+  gap: var(--space--sm);
 }

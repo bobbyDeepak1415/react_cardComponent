@@ -6,7 +6,7 @@ const Badge = ({ text, filled }: BadgeInterface) => {
 
   const filledClass=filled? styles.filled : ""
 
-  return <small className={`${styles.badge} ${filledClass}`}>{text}</small>;
+  return <h2 className={`${styles.badge} ${filledClass}`}>{text}</h2>;
 };
 
 export default Badge;
