@@ -7,3 +7,4 @@ const Badge = ({ text, filled }: BadgeInterface) => {
 };
 
 export default Badge;
+...
