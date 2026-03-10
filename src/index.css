@@ -48,7 +48,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  background-color: hsl(var(--text)/.8);
+  background-color: hsl(var(--bkg));
   color: hsl(var(--text));
   font-family: Inter, Avenir, Arial, Helvetica, sans-serif;
 }
