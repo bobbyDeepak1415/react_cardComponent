@@ -8,8 +8,6 @@ function App() {
 <div className="card-container">
 
       <Badge filled={true} text="New Post" />
-      <Badge filled={true} text="New Post" />
-      <Badge filled={true} text="New Post" />
 </div>
     </div>
   );
